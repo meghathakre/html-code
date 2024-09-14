@@ -1,0 +1,114 @@
+body{
+    background-color: green;
+
+}
+.container{
+     display: grid; 
+
+     grid-template-columns: repeat(4,1fr); 
+    gap:10px;
+}
+.box{
+    border: 3px solid black;
+    height:300px;
+
+}
+.box1{
+    background-color: pink;
+}
+.box2{
+background-color: lightblue;
+
+}
+.box3{
+    background-color: aqua;
+}
+.box4{
+    background-color: blueviolet;
+}
+ @media screen and (min-width: 900px) and (max-width:1100px) {
+body{
+    background-color: red;
+}
+
+@media screen and (max-width: 768px){ 
+    .container {
+        grid-template-columns:(2, 1fr);
+        
+    }
+    .box4 {
+        font-size: 40px;
+    }
+}
+}
+    
+/* @media screen and(max-width: 500px){
+
+.container {
+    grid-template-columns: 1fr;
+}
+.box {
+    font-size: 20px;
+}
+}
+ } */
+
+
+/* *{ */
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+
+/* } */
+/* .Skills{
+
+    background-color:rgb(19, 17, 17);
+    width: 1350px;
+    height: 500px;
+    
+    
+    
+}
+.Skills h6{
+font-size: 40px;
+text-align: center;
+margin-left: 600px;
+color: white;
+
+}
+
+.Skills h6 :after{
+    content: "";
+    position: absolute;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    left: 40%;
+}
+h3{
+    align-items: center;
+    margin-left: 100px;
+    color: white;
+}
+p{
+    color: white;
+}
+.img{
+    align-content: center;
+    margin-left: 150px;
+    display: grid;
+}
+.skill-box{
+    display: flex;
+}
+.skill-tittle{
+    display: flex;
+}
+.skill-fill{
+    display: flex;
+}
+    
+
+    
+    
+ */ */
